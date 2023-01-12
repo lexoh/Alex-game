@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+body {
+  text-align: center;
+  background-color: #aca8a8;
+  color: #f1f1ec;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 1em;
+  color: #ffffcc;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px green, 0 0 30px green,
+    0 0 40px green, 0 0 55px green, 0 0 70px green;
+}
+h2 {
+  font-family: "Odibee Sans", cursive;
+  text-align: center;
+  font-size: 45px;
+  color: rgb(9, 127, 182);
+  padding-top: 1em;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px green, 0 0 30px green,
+    0 0 40px green, 0 0 55px green, 0 0 70px green;
+}
+
+img {
+  width:150px;
+  height:150px;
+  }
+#contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#name {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 40px;
+  padding: 15px;
+  margin: 15px;
+  opacity: 0.3;
+  background-color: black;
+}
+
+#name:placeholder-shown {
+  color: #f1f1ec;
+  font-weight: bold;
+}
+
+#name:hover {
+  opacity: 1;
+}
+
+#email {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 40px;
+  padding: 15px;
+  margin: 15px;
+  opacity: 0.3;
+  background-color: rgb(0, 0, 0);
+}
+
+#email:placeholder-shown {
+  color: #f1f1ec;
+  font-weight: bold;
+}
+
+#email:hover {
+  opacity: 1;
+}
+
+#message {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 100px;
+  padding: 15px;
+  margin: 15px;
+  opacity: 0.3;
+  background-color: black;
+}
+
+#message:placeholder-shown {
+  color: #f1f1ec;
+  font-weight: bold;
+}
+
+#message:hover {
+  opacity: 1;
+}
+
+#submit {
+  font-family: "Odibee Sans", cursive;
+  letter-spacing: normal;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: #f1f1ec;
+  border-color: white;
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+#submit:hover {
+  border: 3px;
+  border: bold;
+  font-weight: bold;
+}

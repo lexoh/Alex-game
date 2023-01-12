@@ -1,0 +1,24 @@
+First, you'll need to install Steghide on your computer. You can download the latest version of Steghide from its official website (https://steghide.sourceforge.io/download.php).
+
+Once Steghide is installed, open a terminal window and navigate to the directory where the image file and the file you want to hide are located.
+
+To hide a file within an image, use the following command:
+
+Copy code
+steghide embed -cf <image_file> -ef <file_to_hide>
+Replace <image_file> with the name of the image file, and <file_to_hide> with the name of the file you want to hide.
+
+Steghide will prompt you to enter a passphrase to encrypt the hidden file. Choose a strong passphrase and enter it when prompted.
+
+Steghide will now embed the file within the image. The image file will not change in size, but it will contain the hidden file.
+
+To extract the hidden file from the image, use the following command:
+
+Copy code
+steghide extract -sf <image_file>
+Enter the passphrase you used to hide the file when prompted, and Steghide will extract the hidden file from the image.
+
+I hope this helps! Let me know if you have any questions.
+
+
+
